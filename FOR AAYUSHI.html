@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>FOR AAYUSHI</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<style>
+  :root {
+    --mu-purple: #0F5C4D;
+    --mu-cream: #F1E9D8;
+    box-sizing: border-box;
+    padding-top: env(safe-area-inset-top, 0px);
+    padding-bottom: env(safe-area-inset-bottom, 0px);
+  }
+  html { scroll-behavior: smooth; }
+  body { background: #ffffff; font-family: Georgia, 'Times New Roman', serif; }
+
+  .mu-header { background: var(--mu-purple); color: #fff; padding: 1.4rem 1rem calc(1.4rem + env(safe-area-inset-top,0px)); text-align: center; }
+  .mu-header h1 { font-weight: 700; margin-bottom: .2rem; }
+  .mu-header p { margin: 0; font-style: italic; }
+
+  .mu-subnav { background: var(--mu-cream); padding: .6rem 0; }
+  .mu-subnav .btn { background: #dbe6d9; border: 1px solid #b6c9b2; color: #0F5C4D; font-size: .85rem; font-weight: 600; }
+  .mu-subnav .btn:hover { background: #c7dac3; }
+
+  .mu-panel { background: #b9b9b9; border-radius: .5rem; padding: 1.25rem; }
+  .mu-box { background: #fff; border-radius: .35rem; padding: 1.25rem 1.5rem; box-shadow: 0 2px 6px rgba(0,0,0,.25); margin-bottom: 1.25rem; }
+  .mu-box:last-child { margin-bottom: 0; }
+  .mu-box h2 { font-weight: 700; font-size: 1.15rem; letter-spacing: .03em; margin-bottom: .6rem; }
+  .mu-box p, .mu-box li { font-size: .95rem; }
+
+  .course-item, .recruiter-item { background: #fff; border: 1px solid #ccc; border-radius: .3rem; padding: .8rem 1rem; height: 100%; font-size: .92rem; }
+  .gallery-item { aspect-ratio: 4/3; background: #d8d8d8; border: 1px solid #bbb; border-radius: .3rem; display: flex; align-items: center; justify-content: center; color: #555; font-size: .85rem; }
+
+  footer { background: var(--mu-purple); color: #eee; text-align: center; padding: 1rem; padding-bottom: calc(1rem + env(safe-area-inset-bottom,0px)); font-size: .85rem; }
+
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) { }
+    body:not([data-theme="light"]) { background: #16161c; color: #eee; }
+    body:not([data-theme="light"]) .mu-box,
+    body:not([data-theme="light"]) .course-item,
+    body:not([data-theme="light"]) .recruiter-item { background: #222230; color: #eee; }
+    body:not([data-theme="light"]) .gallery-item { background: #2c2c3a; color: #aaa; }
+  }
+</style>
+</head>
+<body>
+
+<header class="mu-header">
+  <h1>Marwadi University</h1>
+  <p>Department of Computer Engineering</p>
+</header>
+
+<nav class="mu-subnav">
+  <div class="container d-flex flex-wrap justify-content-center gap-2">
+    <a href="#vision" class="btn btn-sm">Vision</a>
+    <a href="#mission" class="btn btn-sm">Mission</a>
+    <a href="#pso" class="btn btn-sm">Program Specific Outcomes</a>
+    <a href="#courses" class="btn btn-sm">Courses Offered</a>
+    <a href="#gallery" class="btn btn-sm">Image Gallery</a>
+    <a href="#recruiters" class="btn btn-sm">Top Recruiters</a>
+  </div>
+</nav>
+
+<main class="container my-4">
+  <div class="mu-panel">
+
+    <div id="vision" class="mu-box">
+      <h2>VISION</h2>
+      <p class="mb-0">To impart quality technical education through research, innovation, and teamwork for creating professionally superior and ethically strong manpower that meets the global challenges of engineering industries and research organizations.</p>
+    </div>
+
+    <div id="mission" class="mu-box">
+      <h2>MISSION</h2>
+      <ul class="mb-0">
+        <li>Maintain state-of-the-art ICT enabled teaching and learning methodologies.</li>
+        <li>Enable graduates to become digital age literates, innovators, and professionals.</li>
+        <li>Provide skills, knowledge, and attitudes for success as engineers, leaders, and entrepreneurs.</li>
+        <li>Prepare graduates for lifelong learning and career challenges.</li>
+      </ul>
+    </div>
+
+    <div id="pso" class="mu-box">
+      <h2>Program Specific Outcomes</h2>
+      <ol class="mb-0">
+        <li>Apply knowledge and competence in the design and development of computer-based systems addressing industrial and social needs.</li>
+        <li>Adapt to emerging technological advancements including cybersecurity, AR/VR, and IoT.</li>
+        <li>Use modern tools and programming paradigms to build scalable, secure and efficient software solutions.</li>
+      </ol>
+    </div>
+
+    <div id="courses" class="mu-box">
+      <h2>Courses Offered</h2>
+      <div class="row g-3">
+        <div class="col-6 col-md-4"><div class="course-item">B.Tech — Computer Engineering (4 yrs)</div></div>
+        <div class="col-6 col-md-4"><div class="course-item">B.Tech — CE (AI &amp; ML) (4 yrs)</div></div>
+        <div class="col-6 col-md-4"><div class="course-item">M.Tech — Computer Engineering (2 yrs)</div></div>
+        <div class="col-6 col-md-4"><div class="course-item">B.Tech — Information Technology (4 yrs)</div></div>
+        <div class="col-6 col-md-4"><div class="course-item">Ph.D. — Computer Engineering</div></div>
+        <div class="col-6 col-md-4"><div class="course-item">Add-on Certifications</div></div>
+      </div>
+    </div>
+
+    <div id="gallery" class="mu-box">
+      <h2>Image Gallery</h2>
+      <div class="row g-3">
+        <div class="col-6 col-md-4"><div class="gallery-item">Tech Fest</div></div>
+        <div class="col-6 col-md-4"><div class="gallery-item">Convocation</div></div>
+        <div class="col-6 col-md-4"><div class="gallery-item">Hackathon</div></div>
+        <div class="col-6 col-md-4"><div class="gallery-item">Sports Meet</div></div>
+        <div class="col-6 col-md-4"><div class="gallery-item">Guest Lecture</div></div>
+        <div class="col-6 col-md-4"><div class="gallery-item">Cultural Fest</div></div>
+      </div>
+      <p class="text-secondary small mt-2 mb-0">Placeholders — replace with real event photos.</p>
+    </div>
+
+    <div id="recruiters" class="mu-box">
+      <h2>Top Recruiters</h2>
+      <div class="row g-3">
+        <div class="col-6 col-md-3"><div class="recruiter-item text-center">TCS</div></div>
+        <div class="col-6 col-md-3"><div class="recruiter-item text-center">Infosys</div></div>
+        <div class="col-6 col-md-3"><div class="recruiter-item text-center">Wipro</div></div>
+        <div class="col-6 col-md-3"><div class="recruiter-item text-center">Capgemini</div></div>
+        <div class="col-6 col-md-3"><div class="recruiter-item text-center">Accenture</div></div>
+        <div class="col-6 col-md-3"><div class="recruiter-item text-center">Cognizant</div></div>
+        <div class="col-6 col-md-3"><div class="recruiter-item text-center">L&amp;T Infotech</div></div>
+        <div class="col-6 col-md-3"><div class="recruiter-item text-center">Tech Mahindra</div></div>
+      </div>
+    </div>
+
+  </div>
+</main>
+
+<footer>
+  Marwadi University &middot; Department of Computer Engineering
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
